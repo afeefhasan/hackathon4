@@ -21,7 +21,7 @@ def loginUser():
         def showy():
             h = int(et31.get())
             window51.destroy()
-            loc = ("C:/Users/yasharth dubey/Downloads/CropsDataFile.xlsx")
+            loc = ("C:/Users/afeef hasan/Desktop/CropsDataFile.xlsx")
             wb = xlrd.open_workbook(loc)
             sheet = wb.sheet_by_index(0)
             window61 = tkinter.Tk()
@@ -78,7 +78,7 @@ def loginUser():
         def showc():
             g = et81.get()
             window8.destroy()
-            loc = ("C:/Users/yasharth dubey/Downloads/CropsDataFile.xlsx")
+            loc = ("C:/Users/afeef hasan/Desktop/CropsDataFile.xlsx")
             wb = xlrd.open_workbook(loc)
             sheet = wb.sheet_by_index(0)
             a = [ ]
